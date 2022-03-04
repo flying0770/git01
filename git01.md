@@ -1,3 +1,15 @@
+## 邮箱
+
+账号：flying_0770@163.com
+
+密码：1234qwer!
+
+## github:
+
+账号：flying_0770@163.com
+
+密码：1qaz2wsx!
+
 ## 下载git
 
 下载地址：https://git-scm.com/download/win
@@ -50,4 +62,27 @@ git reflog：获取版本标识
 
 git ls-files：查看git本地仓库所有文件
 
-删除文件：直接在本地工作目录中删除，然后再次提交
+删除文件：
+
+1. 直接在本地工作目录中删除，然后再次提交
+2. git rm 文件名，直接删除git本地仓库和本地工作目录文件
+
+## 远程仓库
+
+### 下载
+
+1. 直接下载zip文件
+
+2. git clone github仓库地址
+
+3. SSH
+
+   生产ssh公钥，绑定github
+
+### 推送本地仓库到github
+
+git branch -M master
+
+git remote add origin g git@github.com:flying0770/git01.git
+
+git push -u origin master
