@@ -40,4 +40,8 @@ git log：查看版本记录
 
 git reset --hard HEAD^：向上回退一个版本，即把git本地仓库中的上一个版本内容覆盖到当前工作目录中
 
-git reset --hard HEAD~3：向上回退到第三次提交
+git reset --hard HEAD~3：向上回退三个版本
+
+git reset --hard commit唯一版本号：回退到指定版本
+
+git reflog：获取版本标识
