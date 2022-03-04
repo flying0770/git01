@@ -45,3 +45,9 @@ git reset --hard HEAD~3：向上回退三个版本
 git reset --hard commit唯一版本号：回退到指定版本
 
 git reflog：获取版本标识
+
+### 删除文件
+
+git ls-files：查看git本地仓库所有文件
+
+删除文件：直接在本地工作目录中删除
