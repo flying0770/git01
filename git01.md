@@ -85,7 +85,7 @@ git checkout 分支名：切换分支
 
 git branch -m 原分支名 新分支名：分支重命名
 
-#### 合并分支内容到主干
+##### 合并分支内容到主干
 
 先切换到主干，git checkout master,再合并分支，git merge 分支名
 
@@ -102,3 +102,15 @@ git push origin :分支名：删除远程分支
 git fetch：获取远程分支的最新状态
 
 git checkout -b 本地分支名 origin/远程分支名：把远程分支拉取到本地
+
+##### 尽可能在推送之前先拉取最新代码，再推送
+
+git pull：拉取最新文件
+
+### 标签管理
+
+git tag：获取所有标签
+
+git tag 标签名：默认给最后一次提交添加标签
+
+git push origin 标签名：把标签名推送到远程
