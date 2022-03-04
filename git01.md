@@ -1,15 +1,3 @@
-## 邮箱
-
-账号：flying_0770@163.com
-
-密码：1234qwer!
-
-## github:
-
-账号：flying_0770@163.com
-
-密码：1qaz2wsx!
-
 ## 下载git
 
 下载地址：https://git-scm.com/download/win
@@ -86,3 +74,5 @@ git branch -M master
 git remote add origin g git@github.com:flying0770/git01.git
 
 git push -u origin master
+
+### git分支操作
