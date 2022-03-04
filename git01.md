@@ -76,3 +76,11 @@ git remote add origin g git@github.com:flying0770/git01.git
 git push -u origin master
 
 ### git分支操作
+
+git branch：查看分支，带*为当前分支
+
+git checkout -b 分支名：新建分支，新建的分支即包含主分支所有内容
+
+git checkout 分支名：切换分支
+
+git branch -m 原分支名 新分支名：分支重命名
