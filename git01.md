@@ -75,4 +75,30 @@ git remote add origin g git@github.com:flying0770/git01.git
 
 git push -u origin master
 
-### git分支操作
+### git本地分支操作
+
+git branch：查看分支，带*为当前分支
+
+git checkout -b 分支名：新建分支，新建的分支即包含主分支所有内容
+
+git checkout 分支名：切换分支
+
+git branch -m 原分支名 新分支名：分支重命名
+
+#### 合并分支内容到主干
+
+先切换到主干，git checkout master,再合并分支，git merge 分支名
+
+git branch -d 分支名：删除分支
+
+### git远程分支操作
+
+git branch -a：获取本地和远程所有分支
+
+git push origin 分支名：把本地分支推送到远程分支
+
+git push origin :分支名：删除远程分支
+
+git fetch：获取远程分支的最新状态
+
+git checkout -b 本地分支名 origin/远程分支名：把远程分支拉取到本地
