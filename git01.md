@@ -35,3 +35,9 @@ git reset HEAD 文件名：取消上一次本地工作目录提交到暂存区�
 ### 版本回退
 
 git log：查看版本记录
+
+提交次数过多之后，使用git log 命令行放不下，回车显示所有内容后，输入q退出，或者使用 git log --pretty=oneline
+
+git reset --hard HEAD^：向上回退一个版本，即把git本地仓库中的上一个版本内容覆盖到当前工作目录中
+
+git reset --hard HEAD~3：向上回退到第三次提交
