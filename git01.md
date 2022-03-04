@@ -94,3 +94,7 @@ git branch -d 分支名：删除分支
 ### git远程分支操作
 
 git branch -a：获取本地和远程所有分支
+
+git push origin 分支名：把本地分支推送到远程分支
+
+git push origin :分支名：删除远程分支
