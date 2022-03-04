@@ -98,3 +98,7 @@ git branch -a：获取本地和远程所有分支
 git push origin 分支名：把本地分支推送到远程分支
 
 git push origin :分支名：删除远程分支
+
+git fetch：获取远程分支的最新状态
+
+git checkout -b 本地分支名 origin/远程分支名：把远程分支拉取到本地 哈哈哈
