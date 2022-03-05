@@ -115,6 +115,14 @@ git tag 标签名：默认给最后一次提交添加标签
 
 git push origin 标签名：把标签名推送到远程
 
+git push origin --tags：把本地所有标签推送到远程
+
 git tag -d 标签名：删除本地标签
 
 git push origin :refs/tags/标签名：删除远程标签
+
+
+
+
+
+测试标签
