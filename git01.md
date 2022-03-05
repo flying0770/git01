@@ -120,9 +120,3 @@ git push origin --tags：把本地所有标签推送到远程
 git tag -d 标签名：删除本地标签
 
 git push origin :refs/tags/标签名：删除远程标签
-
-
-
-
-
-测试标签
